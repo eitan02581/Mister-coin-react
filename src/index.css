@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  }
+  
+  h1{
+    margin: 0;
+  }
+  
+  li{
+    list-style: none;
+  }
+  ul{
+    padding: 0px;
+    display: inline-block;
+
+  }
+  
+  
+  .List-wrapper{
+    height: 500px;
+    overflow-y: scroll;
+  }
+ .List-wrapper li{
+  width: 300px;
+  height:95px;
+  width: 300px;
+  margin: 10px 0 ;
+}
+
+
+
+/* contact preview */
+.Contact-preview-wapper{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+
+.Contact-preview-wapper div {
+  width: 100%;
+  height: 100%;
+  background-color: lightseagreen;
+  display: flex;
+  flex-direction: column;
+}
+.Contact-preview-wapper img{
+  width:40px; 
+
+}
+
